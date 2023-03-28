@@ -1,0 +1,80 @@
+body {
+    background-image: url("Images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    src: url("/fonts/open-sans-regular.woff2") format("woff2");
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+    color: whitesmoke;
+    min-width: 320px;
+    max-width: 1405px;
+    margin: 0 auto;
+}
+.header {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#homebtn {
+    background-color: #AD6500;
+}
+.mainbtn {
+    padding: 10px 20px 10px 20px;
+    font-size: 25px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+.mainbtn:hover {
+    background-color: #ad6500;
+}
+.date {
+    color: gray;
+}
+@media only screen and (max-width: 1000px) {
+    .date {
+        display: none;
+    }
+}
+.divhead {
+    display: inline; 
+}
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(131 53 2);
+    padding: 25px;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.settingsBtn {
+    padding: 1px 2px 1px 2px;
+    display: inline;
+    border: none;
+    padding: 0 0 5px 10px;
+    vertical-align: 0.1em;
+    font-size: 21px;
+    color: rgb(192, 188, 188);
+    background: transparent;
+    cursor: pointer;
+}
+label {
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.svg {
+    color: rgb(192, 188, 188);
+}
+.settingsBtn:hover {
+    color: white;
+}
