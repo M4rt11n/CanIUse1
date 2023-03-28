@@ -117,10 +117,17 @@ input:focus {
 }
 .content {
     display: flex;
-    gap: 80px
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+.content > div {
+    width: calc(33.3333% - 20px);
+    margin-bottom: 22px;
+}
+
 .counting {
-    color: #CFB78B;;
+    color: #CFB78B;
     font-size: 16px;
 }
 .paragraf {
