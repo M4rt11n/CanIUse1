@@ -1,0 +1,41 @@
+/* Flex START */
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex-center-x {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-center-y {
+  display: flex;
+  align-items: center;
+}
+
+.flex-split {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Flex END */

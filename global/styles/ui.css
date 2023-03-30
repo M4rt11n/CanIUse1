@@ -1,0 +1,99 @@
+/* Buttons START */
+
+button,
+button:active {
+  border: none;
+}
+
+button,
+a.btn {
+  color: #ffffffba;
+  background: rgba(255,255,255,0.1);
+  padding: 10px 14px 12px;
+  font-size: 1.25em;
+  display: block;
+  cursor: pointer;
+}
+
+button.active,
+button:hover,
+a.btn.active,
+a.btn:hover {
+  background: #AD6500;
+}
+
+button.secondary,
+a.secondary {
+  color: #ffffffba;
+  background: transparent;
+  padding: 0.5em 0.7em 0.6em;
+  font-size: 1.5rem;
+}
+
+button.secondary path,
+a.secondary path {
+  fill: #ffffffba;
+}
+
+button.secondary:hover,
+a.secondary:hover {
+  color: #fff;
+}
+
+button.secondary:hover path,
+a.secondary path {
+  fill: #fff;
+}
+
+/* Buttons END */
+
+/* Texts START */
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DB9E00;
+}
+
+p, a, span {
+  color: #ffffffba;
+  font-size: 1.125em;
+}
+
+p.secondary,
+a.secondary,
+span.secondary {
+  color: rgba(255,255,255,0.4);
+}
+
+h1, h2 {
+  font-size: 2.5em;
+  color: #fff;
+  font-weight: 300;
+}
+
+/* Texts END */
+
+
+/* Form elements START */
+
+input {
+  border: 0;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  font: inherit;
+  color: #fff;
+  padding: 0 4px;
+  border-radius: 0;
+  text-align: center;
+  height: 61px;
+}
+
+input:focus {
+  background-color: #d6976d;
+  outline: none;
+}
+
+/* Form elements END */

@@ -1,0 +1,26 @@
+header {
+  gap: 16px;
+}
+
+header .flex-center {
+  gap: 3px;
+}
+
+.searchBar {
+  padding: 0.6em 0;
+  background: #833502;
+}
+
+.searchBar.flex-center {
+  gap: 10px;
+}
+
+.searchBar input {
+  width: 40%;
+}
+
+@media only screen and (max-width: 800px) {
+  .announcement {
+    display: none;
+  }
+}

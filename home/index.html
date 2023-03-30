@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Can I use... Support tables for HTML5, CSS3, etc</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../global/styles/style.css" />
+    <link rel="stylesheet" href="../global/styles/ui.css">
+    <link rel="stylesheet" href="../global/styles/header.css">
+    <link rel="stylesheet" href="../global/styles/footer.css">
+    <link rel="stylesheet" href="../global/styles/grid.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
@@ -18,26 +23,28 @@
     />
   </head>
   <body>
-    <header>
-      <div class="headerdiv">
-        <button id="homeBtn" href="">Home</button>
-        <button href="">News</button>
-        <label class="date">
-          <span>March 8, 2023 -</span>
-          <a href="" class="newlink">
+    <header class="flex-col">
+
+      <div class="flex-split">
+        <div class="flex-center">
+          <a class="btn active" href="/">Home</a>
+          <a class="btn" href="">News</a>
+        </div>
+        <a class="announcement" href="">
+          <span class="secondary">March 8, 2023 -</span>
             New feature: CSS text-box-trim & text-box-edge
-          </a>
-        </label>
-        <button href="">Compare browsers</button>
-        <button href="">About</button>
+        </a>
+        <div class="flex-center">
+          <a class="btn" href="">Compare browsers</a>
+          <a class="btn" href="">About</a>
+        </div>
       </div>
-      <div class="searchBar">
-        Can I Use
-        <form>
-          <form><input type="text" /></form>
-        </form>
-        ?
-        <button id="settingsBtn">
+
+      <form class="searchBar flex-center">
+        <h1>Can I Use</h1>
+        <input type="text" />
+        <h2>?</h2>
+        <button class="secondary">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -49,11 +56,12 @@
               d="M16,8.87V7L15.74,7l-1.95-.64-.52-1.25,1-2.12L13,1.67l-.25.12-1.82.93L9.66,2.2,8.87,0H7.05L7,.26,6.33,2.21l-1.25.52L3,1.73,1.67,3l.12.25.93,1.82L2.2,6.34,0,7.13V8.95L.26,9l2,.64.52,1.25L1.73,13,3,14.33l.25-.12,1.82-.93,1.26.52L7.13,16H8.95L9,15.74l.64-2,1.26-.52,2.11,1L14.33,13l-.12-.25-.93-1.82.52-1.26ZM8,10.55A2.55,2.55,0,1,1,10.55,8,2.55,2.55,0,0,1,8,10.55Z"
             ></path>
           </svg>
-          <label>Settings</label>
+          Settings
         </button>
-      </div>
+      </form>
+
     </header>
-    <main>
+    <!-- <main>
       <button class="scndBtn" id="indexfeats">Index of features</button>
       <button class="filter-button scndBtn">
         <svg width="16" height="16"><use xlink:href="#filter"></use></svg>
@@ -238,6 +246,6 @@
       <p>
         <a href="">Enable default colors</a>
       </p>
-    </footer>
+    </footer> -->
   </body>
 </html>
