@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Can I use... Support tables for HTML5, CSS3, etc</title>
+    
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="../global/styles/style.css" />
+    <link rel="stylesheet" href="../global/styles/global.css" />
     <link rel="stylesheet" href="../global/styles/ui.css">
     <link rel="stylesheet" href="../global/styles/header.css">
     <link rel="stylesheet" href="../global/styles/footer.css">
@@ -22,230 +23,204 @@
     mobile web browsers.'
     />
   </head>
+
   <body>
-    <header class="flex-col">
+    <div class="container flex-col">
+      <header class="flex-col">
 
-      <div class="flex-split">
-        <div class="flex-center">
-          <a class="btn active" href="/">Home</a>
-          <a class="btn" href="">News</a>
-        </div>
-        <a class="announcement" href="">
-          <span class="secondary">March 8, 2023 -</span>
-            New feature: CSS text-box-trim & text-box-edge
-        </a>
-        <div class="flex-center">
-          <a class="btn" href="">Compare browsers</a>
-          <a class="btn" href="">About</a>
-        </div>
-      </div>
+        <section class="flex-split">
+          <div class="flex-center">
+            <a class="btn active" href="/">Home</a>
+            <a class="btn" href="">News</a>
+          </div>
+          <a class="announcement" href="">
+            <span class="secondary">March 8, 2023 -</span>
+              New feature: CSS text-box-trim & text-box-edge
+          </a>
+          <div class="flex-center">
+            <a class="btn" href="">Compare browsers</a>
+            <a class="btn" href="">About</a>
+          </div>
+        </section>
+  
+        <section class="search-bar flex-center">
+          <h1>Can I Use</h1>
+          <input type="text" />
+          <h2>?</h2>
+          <button class="secondary">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              class="icon"
+            >
+              <path
+                d="M16,8.87V7L15.74,7l-1.95-.64-.52-1.25,1-2.12L13,1.67l-.25.12-1.82.93L9.66,2.2,8.87,0H7.05L7,.26,6.33,2.21l-1.25.52L3,1.73,1.67,3l.12.25.93,1.82L2.2,6.34,0,7.13V8.95L.26,9l2,.64.52,1.25L1.73,13,3,14.33l.25-.12,1.82-.93,1.26.52L7.13,16H8.95L9,15.74l.64-2,1.26-.52,2.11,1L14.33,13l-.12-.25-.93-1.82.52-1.26ZM8,10.55A2.55,2.55,0,1,1,10.55,8,2.55,2.55,0,0,1,8,10.55Z"
+              ></path>
+            </svg>
+            Settings
+          </button>
+        </section>
+  
+      </header>
 
-      <form class="searchBar flex-center">
-        <h1>Can I Use</h1>
-        <input type="text" />
-        <h2>?</h2>
-        <button class="secondary">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            class="icon"
-          >
-            <path
-              d="M16,8.87V7L15.74,7l-1.95-.64-.52-1.25,1-2.12L13,1.67l-.25.12-1.82.93L9.66,2.2,8.87,0H7.05L7,.26,6.33,2.21l-1.25.52L3,1.73,1.67,3l.12.25.93,1.82L2.2,6.34,0,7.13V8.95L.26,9l2,.64.52,1.25L1.73,13,3,14.33l.25-.12,1.82-.93,1.26.52L7.13,16H8.95L9,15.74l.64-2,1.26-.52,2.11,1L14.33,13l-.12-.25-.93-1.82.52-1.26ZM8,10.55A2.55,2.55,0,1,1,10.55,8,2.55,2.55,0,0,1,8,10.55Z"
-            ></path>
-          </svg>
-          Settings
-        </button>
-      </form>
+      <main class="flex-col">
 
-    </header>
-    <!-- <main>
-      <button class="scndBtn" id="indexfeats">Index of features</button>
-      <button class="filter-button scndBtn">
-        <svg width="16" height="16"><use xlink:href="#filter"></use></svg>
-        <span>Filter features</span>
-      </button>
-      <div class="content">
-        <div>
-          <h4 class="mainpart">Latest features</h4>
-          <ul class="counting">
-            <li>
-              <a href="" class="mein">CSS text-box-trim & text-box-edge</a>
-            </li>
-            <li>
-              <a href="" class="mein">CSS Container Style Queries</a>
-            </li>
-            <li>
-              <a href="" class="mein">ImageCapture API</a>
-            </li>
-            <li>
-              <a href="" class="mein"> WebCodecs API </a>
-            </li>
-            <li>
-              <a href="" class="mein">WebTransport</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <div>
-            <h4 class="mainpart">Most searched features</h4>
-            <ol class="counting">
-              <li>
-                <a href="" class="mein">CSS Grid</a>
-              </li>
-              <li>
-                <a href="" class="mein">Flexbox</a>
-              </li>
-              <li>
-                <a href="" class="mein">WebP imaje format</a>
-              </li>
-              <li>
-                <a href="" class="mein"> gap property for Flexbox </a>
-              </li>
-              <li>
-                <a href="" class="mein">ES6</a>
-              </li>
-            </ol>
-          </div>
-        </div>
-        <div>
-          <h4 class="mainpart">Test a feature</h4>
-          <p class="paragraf">Our partnership with
-          <a href="" class="mein">BrowserStack</a>
-          now lets you test your website for compatibility across 2,000+ real
-          browsers and devices.</p>
-          <p class="paragraf">Test on:</p>
-          <div class="counting">
-            <li>
-              <a href="" class="mein">IE 11</a>
-            </li>
-            <li>
-              <a href="" class="mein">Safari 13</a>
-            </li>
-            <li>
-              <a href="" class="mein">Safari on iPhone 11 Pro</a>
-            </li>
-            <li>
-              <a href="" class="mein">Chrome on Galaxy S20</a>
-            </li>
-          </div>
-        </div>
-        <div>
-          <h4 class="mainpart">Did you know?</h4>
-          <p class="paragraf">Next</p>
-          <ul>
-            <li>
-              <p class="paragraf">
-                If a feature you're looking for is not available on the site, you
-                can
-                <a href="" class="mein">vote to have it included.</a>
-                Better yet, if you've done the research you can even
-                <a href="" class="mein">submit it yourself!</a>
-              </p>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h4 class="mainpart">Third party tools</h4>
-          <ol class="counting">
-            <li>
-              <a href="" class="mein">The CanIUse Embed — Add support tables to your site</a>
-            </li>
-            <li>
-              <a href=""
-              class="mein">Caniuse Component — Add support tables to your presentations</a
-              >
-            </li>
-            <li>
-              <a href="" class="mein">Caniuse command line tool</a>
-            </li>
-            <li>
-              <a href="" class="mein">Doiuse...? — Lint your CSS to check what features work</a>
-            </li>
-            <li>
-              <a href=""
-              class="mein">I want to use — Select multiple features and see what % of users
-                can use them</a
-              >
-            </li>
-          </ol>
-          <a href="" class="mein">See full list</a>
-        </div>
-        <div>
-          <h4 class="mainpart">Browser scores</h4>
-          <div>
-            <button>Current version</button>
-            <button>Dev version</button>
-          </div>
-          <div>
+        <section class="navigation flex">
+          <a class="btn">Index of features</a>
+          <a class="btn flex-center">
+            <svg width="16" height="16">
+              <path fill="#fff" d="M6.0767,7.5606a.9824.9824,0,0,1,.2625.6683v7.2758a.5.5,0,0,0,.8489.3523l2.0482-2.326c.2741-.3259.4253-.4873.4253-.81V8.2306a.99.99,0,0,1,.2625-.6683l5.8773-6.3194A.74.74,0,0,0,15.2514,0H.7493a.74.74,0,0,0-.55,1.2428Z"></path>
+            </svg>
+            <span>Filter features</span>
+          </a>
+        </section>
+
+        <section class="content">
+          <div class="block">
+            <h3>Latest features</h3>
             <ul>
-              <li><span class="span1"><span id="span11">Chrome 110: 405</span></span></li>
-              <li><span class="span2"><span id="span22">Firefox 110: 385</span></span></li>
-              <li><span class="span3"><span id="span33">Safari 16.3: 375</span></span></li>
+              <li><a href="">CSS text-box-trim & text-box-edge</a></li>
+              <li><a href="">CSS Container Style Queries</a></li>
+              <li><a href="">ImageCapture API</a></li>
+              <li><a href=""> WebCodecs API </a></li>
+              <li><a href="">WebTransport</a></li>
             </ul>
           </div>
-          <div>
-            <a href="" class="mein">About these scores</a>
+          <div class="block">
+            <h3>Most searched features</h3>
+            <ol>
+              <li><a href="">CSS Grid</a></li>
+              <li><a href="">Flexbox</a></li>
+              <li><a href="">WebP image format</a></li>
+              <li><a href=""> gap property for Flexbox </a></li>
+              <li><a href="">ES6</a></li>
+            </ol>
           </div>
+          <div class="block">
+            <h3>Test a feature</h3>
+            <p class="paragraf">Our partnership with <a href="">BrowserStack</a> now lets you test your website for compatibility across 2,000+ real browsers and devices.</p>
+            <p class="paragraf">Test on:</p>
+            <ul>
+              <div class="flex-split">
+                <div class="list">
+                  <li><a href="">IE 11</a></li>
+                  <li><a href="">Safari 13</a></li>
+                </div>
+                <div class="list">
+                  <li><a href="">Safari on iPhone 11 Pro</a></li>
+                  <li><a href="">Chrome on Galaxy S20</a></li>
+                </div>
+              </div>
+            </ul>
+          </div>
+          <div class="block">
+            <h3>Did you know?</h3>
+            <p>If a feature you're looking for is not available on the site, you can <a href="">vote to have it included.</a> Better yet, if you've done the research you can even <a href="">submit it yourself!</a></p>
+            <a class="link" href="">Next</a>
+          </div>
+          <div class="block">
+            <h3>Third party tools</h3>
+            <ul>
+              <li><a href="">The CanIUse Embed — Add support tables to your site</a></li>
+              <li><a href=""
+              >Caniuse Component — Add support tables to your presentations</a></li>
+              <li><a href="">Caniuse command line tool</a></li>
+              <li><a href="">Doiuse...? — Lint your CSS to check what features work</a></li>
+              <li><a href="">I want to use — Select multiple features and see what % of users can use them</a></li>
+            </ul>
+            <a href="">See full list</a>
+          </div>
+          <div class="block">
+            <h3>Browser scores</h3>
+            <div>
+              <button>Current version</button>
+              <button>Dev version</button>
+            </div>
+            <div>
+              <ul>
+                <li><span class="span1"><span id="span11">Chrome 110: 405</span></span></li>
+                <li><span class="span2"><span id="span22">Firefox 110: 385</span></span></li>
+                <li><span class="span3"><span id="span33">Safari 16.3: 375</span></span></li>
+              </ul>
+            </div>
+            <div>
+              <a href="">About these scores</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="flex-split">
+
+        <div class="block">
+          <h4>Can I use</h4>
+          <p>Browser support tables for modern web technologies</p>
+          <p>
+            Created & maintained by <a href="">@Fyrd</a>, design by
+            <a href="">@Lensco</a>.
+          </p>
+          <p>Support data contributions by the GitHub <a href="">community</a>.</p>
+          <p>
+            Usage share statistics by <a href="">StatCounter GlobalStats</a> for
+            February, 2023
+          </p>
+          <p>Location detection provided by <a href="">ipinfo.io</a>.</p>
+          <p>
+            Browser testing done via
+            <a> <img src="" alt="BrowserStack" /> </a>
+          </p>
         </div>
-      </div>
-    </main>
-    <footer>
-      <h3>Can I use</h3>
-      <p>Browser support tables for modern web technologies</p>
-      <p>
-        Created & maintained by <a href="" class="mein">@Fyrd</a>, design by
-        <a href="" class="mein">@Lensco</a>.
-      </p>
-      <p>Support data contributions by the GitHub <a href="" class="mein">community</a>.</p>
-      <p>
-        Usage share statistics by <a href="" class="mein">StatCounter GlobalStats</a> for
-        February, 2023
-      </p>
-      <p>Location detection provided by <a href="" class="mein">ipinfo.io</a>.</p>
-      <p>
-        Browser testing done via
-        <button> <img src="" alt="BrowserStack" /> </button>
-      </p>
-      <h3>Support via Patreon</h3>
-      <p>Become a caniuse Patron to support the site for only $1/month!</p>
-      <button>
-        <img src="" alt="Become a Patron" />
-      </button>
-      <p>or <a href="" class="mein">Log in</a></p>
-      <h4>Site links</h4>
-      <ol>
-        <li>
-          <a href="" class="mein">Home</a>
-        </li>
-        <li>
-          <a href="" class="mein">Feature index</a>
-        </li>
-        <li>
-          <a href="" class="mein">Browser usage table</a>
-        </li>
-        <li>
-          <a href="" class="mein">Feature suggestion list</a>
-        </li>
-        <li>
-          <a href="" class="mein">Caniuse data on GitHub</a>
-        </li>
-      </ol>
-      <h2>Legend</h2>
-      <ul>
-        <li>Green = Supported</li>
-        <li>Red = Not supported</li>
-        <li>Greenish yellow = Partial support</li>
-        <li>Gray = Support unknown</li>
-      </ul>
-      <p>
-        <a href="">Enable color-blind friendly colors</a>
-      </p>
-      <p>
-        <a href="">Enable default colors</a>
-      </p>
-    </footer> -->
+
+        <div class="block">
+          <h4>Support via Patreon</h4>
+          <p>Become a caniuse Patron to support the site for only $1/month!</p>
+          <a>
+            <img src="" alt="Become a Patron" />
+          </a>
+          <p>or <a href="">Log in</a></p>
+        </div>
+
+        <div class="block">
+          <h4>Site links</h4>
+          <ul>
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="">Feature index</a>
+            </li>
+            <li>
+              <a href="">Browser usage table</a>
+            </li>
+            <li>
+              <a href="">Feature suggestion list</a>
+            </li>
+            <li>
+              <a href="">Caniuse data on GitHub</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="block">
+          <h4>Legend</h4>
+          <ul>
+            <li>Green = Supported</li>
+            <li>Red = Not supported</li>
+            <li>Greenish yellow = Partial support</li>
+            <li>Gray = Support unknown</li>
+          </ul>
+          <p>
+            <a href="">Enable color-blind friendly colors</a>
+          </p>
+          <p>
+            <a href="">Enable default colors</a>
+          </p>
+        </div>
+
+      </footer>
+
+    </div>
   </body>
 </html>

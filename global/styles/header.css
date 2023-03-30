@@ -6,16 +6,16 @@ header .flex-center {
   gap: 3px;
 }
 
-.searchBar {
-  padding: 0.6em 0;
+.search-bar {
+  padding: 24px 0;
   background: #833502;
 }
 
-.searchBar.flex-center {
+.search-bar.flex-center {
   gap: 10px;
 }
 
-.searchBar input {
+.search-bar input {
   width: 40%;
 }
 

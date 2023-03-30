@@ -1,11 +1,6 @@
 /* Buttons START */
 
 button,
-button:active {
-  border: none;
-}
-
-button,
 a.btn {
   color: #ffffffba;
   background: rgba(255,255,255,0.1);
@@ -26,8 +21,8 @@ button.secondary,
 a.secondary {
   color: #ffffffba;
   background: transparent;
-  padding: 0.5em 0.7em 0.6em;
-  font-size: 1.5rem;
+  padding: 12px 14px;;
+  font-size: 20px;
 }
 
 button.secondary path,
@@ -53,7 +48,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:not(.btn):hover {
   color: #DB9E00;
 }
 
@@ -72,6 +67,12 @@ h1, h2 {
   font-size: 2.5em;
   color: #fff;
   font-weight: 300;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 300;
+  color: #ffffffba;
 }
 
 /* Texts END */
