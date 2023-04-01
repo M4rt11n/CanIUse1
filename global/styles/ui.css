@@ -40,6 +40,27 @@ a.secondary path {
   fill: #fff;
 }
 
+.BV,
+.BV1 {
+  padding: 1px 6px;
+  font-size: 14px;
+  display: inline;
+  margin: 11px 0px -5.5px;
+}
+
+.BV {
+  color: #ffffffba;
+  background-color: #654600;
+}
+
+.BV:hover {
+  background-color: #654600;
+}
+
+.BV1:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
 /* Buttons END */
 
 /* Texts START */
