@@ -40,12 +40,18 @@ a.secondary path {
   fill: #fff;
 }
 
+.BtnVers {
+  font-weight: normal;
+  font-size: 22px;
+  margin-top: 11px;
+  margin-bottom: -5.5px;
+}
+
 .BV,
 .BV1 {
   padding: 1px 6px;
   font-size: 14px;
   display: inline;
-  margin: 11px 0px -5.5px;
 }
 
 .BV {
@@ -96,6 +102,13 @@ h3 {
   color: #ffffffba;
 }
 
+h4 {
+  margin-top: 0;
+  margin-bottom: 1em;
+  color: white;
+  font-size: 16px;
+}
+
 /* Texts END */
 
 
@@ -119,3 +132,37 @@ input:focus {
 }
 
 /* Form elements END */
+
+#span11 {
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 2px;
+  padding-left: 4px;
+  height: 1.4em;
+  vertical-align: middle;
+  transition: width 0.5s;
+  white-space: nowrap;
+  position: relative;
+  z-index: 1;
+  font-size: 16px;
+  line-height: 1.4;
+  padding-right: 54px;
+  background-color: #1b4475;
+}
+
+.span {
+  padding: 0;
+  padding-bottom: 0.5em;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.sp1 {
+  background-color: #1b4475;
+  opacity: 0.7;
+}
+
+.about1:hover {
+  color: #ffdd00;
+}

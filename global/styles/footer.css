@@ -1,5 +1,27 @@
-footer {
-  margin-top: 32px;
-  padding-top: 35px;
+#footer {
   border-top: 2px solid rgba(255,255,255,0.2);
+  margin-top: 32px;
+  padding: 5px;
+  padding-top: 35px;
+  color: #CFB78B;
+  gap: 2em 1em;
+}
+
+#footer p {
+  color: #CFB78B;
+  font-size: 14px;
+}
+
+footer a {
+  color: #DB9E00;
+}
+
+#footer a:hover {
+  color: #fd0;
+}
+
+#patreon {
+  display: inline-block;
+  text-align: left;
+  max-height: 36px;
 }
