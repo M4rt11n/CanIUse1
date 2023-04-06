@@ -34,7 +34,7 @@ footer a {
   font-size: 13px;
 }
 
-.legend {
+.legend li {
   display: flex;
   align-items: center;
   height: auto;
@@ -44,7 +44,7 @@ footer a {
   font-size: 13px;
 }
 
-.Box {
+.box {
   height: 13px;
   width: 25px;
   border: none;
@@ -65,4 +65,8 @@ footer a {
 
 .gray {
   background: #757575;
+}
+
+#footer .block {
+  padding: 0 20px;
 }
