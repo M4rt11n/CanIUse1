@@ -1,10 +1,12 @@
 #footer {
+  display: grid;
+  grid-template-columns: auto 17em;
+  gap: 2em 1em;
   border-top: 2px solid rgba(255,255,255,0.2);
   margin-top: 32px;
   padding: 5px;
   padding-top: 35px;
   color: #CFB78B;
-  gap: 2em 1em;
 }
 
 #footer p {
@@ -24,4 +26,43 @@ footer a {
   display: inline-block;
   text-align: left;
   max-height: 36px;
+  width: 163px;
+  height: 38px;
+}
+
+#SieLinks {
+  font-size: 13px;
+}
+
+.legend {
+  display: flex;
+  align-items: center;
+  height: auto;
+  margin-left: 0;
+  text-align: left;
+  color: #CFB78B;
+  font-size: 13px;
+}
+
+.Box {
+  height: 13px;
+  width: 25px;
+  border: none;
+  margin-right: 3px;
+}
+
+.green {
+  background-color: #39b54a;
+}
+
+.red {
+  background: repeating-linear-gradient(45deg, #86261a 0, #6e1f14 1px, #6e1f14 0.4em, #86261a calc(.25em + 1px), #86261a 0.75em);
+}
+
+.greenish {
+  background: repeating-linear-gradient(90deg, #4d5702 0, #3f4702 1px, #3f4702 0.4em, #4d5702 calc(.25em + 1px), #4d5702 0.75em);
+}
+
+.gray {
+  background: #757575;
 }
