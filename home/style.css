@@ -52,7 +52,7 @@ main {
   align-items: flex-start;
 }
 
-.content .block .list, {
+.content .block .list {
   padding-left: 22px;
   margin-top: 22px;
 }
