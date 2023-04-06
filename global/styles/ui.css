@@ -132,37 +132,3 @@ input:focus {
 }
 
 /* Form elements END */
-
-#span11 {
-  display: inline-flex;
-  align-items: center;
-  box-sizing: border-box;
-  padding: 2px;
-  padding-left: 4px;
-  height: 1.4em;
-  vertical-align: middle;
-  transition: width 0.5s;
-  white-space: nowrap;
-  position: relative;
-  z-index: 1;
-  font-size: 16px;
-  line-height: 1.4;
-  padding-right: 54px;
-  background-color: #1b4475;
-}
-
-.span {
-  padding: 0;
-  padding-bottom: 0.5em;
-  font-size: 16px;
-  line-height: 1.4;
-}
-
-.sp1 {
-  background-color: #1b4475;
-  opacity: 0.7;
-}
-
-.about1:hover {
-  color: #ffdd00;
-}

@@ -52,8 +52,7 @@ main {
   align-items: flex-start;
 }
 
-.content .block ul,
-.content .block ol {
+.content .block .list, {
   padding-left: 22px;
   margin-top: 22px;
 }
@@ -89,3 +88,49 @@ main {
 }
 
 /* Content END */
+
+.stats {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+}
+
+.stats li {
+  display: flex;
+}
+
+.progress {
+  font-size: 16px;
+  padding: 2px 4px;
+  display: block;
+  transition: 0.2s ease-in-out;
+}
+
+.chrome-bg {
+  background-color: #1b4475;
+}
+
+.firefox-bg {
+  background-color: #613910;
+}
+
+.safari-bg {
+  background-color: #414141;
+}
+
+.progress-partial {
+  display: block;
+  opacity: 0.7;
+}
+
+.span {
+  padding: 0;
+  padding-bottom: 0.5em;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.sp1 {
+  background-color: #1b4475;
+  opacity: 0.7;
+}
