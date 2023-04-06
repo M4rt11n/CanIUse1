@@ -1,7 +1,7 @@
 #footer {
-  display: grid;
+  display: flex;
   grid-template-columns: auto 17em;
-  gap: 2em 1em;
+  gap: 2em 4px;
   border-top: 2px solid rgba(255,255,255,0.2);
   margin-top: 32px;
   padding: 5px;
